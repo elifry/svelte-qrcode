@@ -28,7 +28,7 @@
   }
 
   $: {
-    if(value) {
+    if(value || color) {
       generateQrCode();
     }
   }
